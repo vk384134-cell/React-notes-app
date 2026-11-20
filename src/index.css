@@ -1,0 +1,13 @@
+body {
+  background-color: #f4f6f9;
+}
+
+/* Keep long text inside the card instead of overflowing */
+.note-description {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.note-card {
+  border-left: 4px solid var(--bs-primary);
+}
